@@ -25,7 +25,7 @@ function init() {
 
     audioElement.volume = e.target.value/100; // change volume.
 
-    console.log(e);
+      // console.log(e);
 
     if (e.target.value == 0) {
       volumeImage.src = "./assets/icons/volume-level-0.svg";
